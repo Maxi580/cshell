@@ -3,4 +3,5 @@ project(cshell  C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(cshell  main.c)
+add_executable(cshell  main.c
+        builtins.h)
